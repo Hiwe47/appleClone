@@ -1,41 +1,29 @@
-* {
-  margin: 0;
-  padding: 0;
+.fourth-section-wrapper .never{
+    background-image: url(../images/home/watch-series-5.jpg);
 }
-img {
-  max-width: 100%;
+.Daily{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%;
+    padding-top: 54px;
 }
-/* include font family  with links on html for body tag */
-body {
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+.fourth-section-wrapper .Daily{
+    background-image: url(../images/home/apple-card.jpg);
+}
+.title-wraper{
+    font-weight: 600;
+    font-size: 56px;
+
+}
+.discription-wraper{
+    font-size: 26px;
+    padding: 10px 0;
 }
 
-.links-wrapper ul {
-  list-style: none;
-}
-.model-wrapper {
-  font-size: 0.85em;
-}
-.product-wrapper {
-  font-weight: 700;
-  font-size: 56px;
-}
-.highliter-wrapper {
-  font-size: 2em;
-}
-.links-wrapper {
-  padding: 15px 0;
-}
-
-.links-wrapper ul li {
-  display: inline-block;
-  padding-right: 20px;
-}
-.links-wrapper ul li a {
-  text-decoration: none;
-  color: #06c;
-}
 .links-wrapper ul li a:hover {
   color: #000;
 }
@@ -101,4 +89,9 @@ body {
   background-color: #fafafa;
   background-position: bottom;
   background-repeat: no-repeat;
+}
+.price-wraper{
+    color: #868686;
+    font-size: 0.85px;
+
 }
